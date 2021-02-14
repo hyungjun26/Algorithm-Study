@@ -1,5 +1,7 @@
 package Leetcode;
 
+import java.util.*;
+
 public class Solution_785_BFS {
 	public boolean isBipartite(int[][] graph) {
         int[] color = new int[graph.length];

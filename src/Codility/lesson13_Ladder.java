@@ -1,7 +1,7 @@
 package Codility;
 
 // RESULT = https://app.codility.com/demo/results/trainingPNNZHV-X4T/
-public class lesson8_Ladder {
+public class lesson13_Ladder {
 	public int[] solution(int[] A, int[] B) {
         int[] ans = new int[A.length];
         int L = A.length;

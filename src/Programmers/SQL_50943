@@ -1,0 +1,4 @@
+SELECT A.animal_id, A.name from animal_outs as A
+left join animal_ins as B on A.animal_id = B.animal_id
+where A.DATETIME < B.DATETIME
+order by B.DATETIME;
